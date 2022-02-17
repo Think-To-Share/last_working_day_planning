@@ -1,6 +1,6 @@
 ```mermaid
 graph TD;
-    E[Employee]--->|If not Authenticated| L[Login];
+    E[Employee]--->|If not Authenticated| L[Login / Sign Up];
     E-->D[Dashboard];
     L-->D;
     D-->Profile;
