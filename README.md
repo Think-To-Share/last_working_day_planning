@@ -23,7 +23,7 @@ graph TD;
    S-->Contact;
    Contact-->O[Make Offer];
    New_J-->In[Get Interest List];
-   In-->Contact;
-   In-->Sh(Shortlist for Future);
+   In--->Contact;
+   In--->Sh(Shortlist for Future);
    O-->Job{Get Job};
 ```
